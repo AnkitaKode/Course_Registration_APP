@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:id="@+id/main"
+android:padding="20dp"
+android:gravity="center"
+android:background="#C1A4A4">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="1dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="123dp"
+        android:layout_height="103dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+</LinearLayout>
+
+<EditText
+    android:id="@+id/editTextName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Name"
+    android:padding="14dp"
+    android:textColor="@android:color/black"/>
+<EditText
+    android:id="@+id/editTextCourse"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Course"
+    android:padding="14dp"
+    android:textColor="@android:color/black"/>
+
+<EditText
+    android:id="@+id/editTextEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Email"
+    android:padding="14dp"
+
+    android:textColor="@android:color/black"
+    android:inputType="textEmailAddress"/>
+
+<EditText
+    android:id="@+id/editTextPhone"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:hint="Enter Phone"
+    android:inputType="phone"
+
+    android:padding="10dp"
+    android:textColor="@color/white" />
+
+<Button
+    android:id="@+id/buttonInsertData"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Insert Data"
+    android:backgroundTint="#E07972"
+    android:textColor="@android:color/white"/>
+
+<Button
+    android:id="@+id/buttonUpdateData"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Update Data"
+    android:backgroundTint="#E07972"
+    android:textColor="@android:color/white"/>
+
+<Button
+    android:id="@+id/buttonDeleteData"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Delete Data"
+    android:backgroundTint="#E07972"
+    android:textColor="@android:color/white"/>
+
+<Button
+    android:id="@+id/buttonView"
+    android:text="View"
+    android:textColor="@android:color/white"
+    android:layout_width="245dp"
+    android:layout_height="45dp"
+    android:backgroundTint="#282525"
+    android:importantForAutofill="no"
+    android:textColorHint="#090909">
+</Button>
+
+
+</LinearLayout>
